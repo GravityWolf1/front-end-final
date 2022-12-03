@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <title>Black Jack Project</title>
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="Blackjack.css">
+        <script src="Blackjack.js"></script>
+    </head>
+    <header>
+        Game controls
+    </header>
+    <sidebar>
+        <input id="deal" value="Deal" onclick="history.go(0)" type="button">
+        <button id="hit">Hit</button>
+        <button id="stand">Stand</button>
+    </sidebar>
+    <body>
+        <h2>Dealer: <span id="dealer-sum"></span></h2>
+        <div id="dealer-cards">
+            <img id="hiddencard" src="./cards/PNG/red_back.png">
+        </div>
+
+        <p id="results"></p>
+
+        <h2>You: <span id="player-sum"></span></h2>
+        <div id="player-cards"></div>
+    </body>
+</html>

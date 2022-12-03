@@ -1,0 +1,59 @@
+html{
+    background-color: green;
+}
+
+header{
+    background-color: darkred;
+    width: 130px;
+    font-weight: bold;
+}
+
+body{
+    text-align: center;
+}
+
+sidebar{
+    float: left;
+    height: 586px;
+    width: 130px;
+    margin-top: 0px;
+    background-color: rgb(91, 38, 38);
+}
+
+#dealer-cards img {
+    height: 175px;
+    width: 125px;
+    margin: 2px;
+}
+
+#player-cards img {
+    height: 175px;
+    width: 125px;
+    margin: 2px;
+}
+
+#deal{
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    margin: 3px;
+    margin-top: 15px;
+}
+#hit{
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    margin: 3px;
+}
+#stand{
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    margin: 3px;
+}
+
+#results{
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 2px;
+}
